@@ -1,8 +1,29 @@
-*.sw*
+# GVIM file #
+#############
+*.swp*
+
+# Compiled source #
+###################
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+*.svn
+
+# Packages #
+############
 *.zip
 *.gz
-log/*.log
-log/*.log.[0-9]
-assets/photoshop/
-assets/videos/
-!assets/videos/tour_*.mp4
+*.7z
+*.iso
+*.jar
+*.war
+*.ear
+*.tar
+
+# Logs and databases #
+######################
+*.log
+log/
